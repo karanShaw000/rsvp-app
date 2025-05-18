@@ -47,6 +47,12 @@ Edit `.env` and provide the following values:
 
 > ⚠️ If you change the backend port from `5000`, make sure to update the port in `client/src/libs/network.ts` for development.
 
+Seed the database with events:
+
+```bash
+npm run seed
+```
+
 Start the backend server:
 
 ```bash
